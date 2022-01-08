@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/15 - ObjectPractice/15 - ObjectPractice.iml" filepath="$PROJECT_DIR$/15 - ObjectPractice/15 - ObjectPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16 - Inheritance/16 - Inheritance.iml" filepath="$PROJECT_DIR$/16 - Inheritance/16 - Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17 - Polymorphism/17 - Polymorphism.iml" filepath="$PROJECT_DIR$/17 - Polymorphism/17 - Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18 - Abstract/18 - Abstract.iml" filepath="$PROJECT_DIR$/18 - Abstract/18 - Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19 - Interface/19 - Interface.iml" filepath="$PROJECT_DIR$/19 - Interface/19 - Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20 - TryCatch/20 - TryCatch.iml" filepath="$PROJECT_DIR$/20 - TryCatch/20 - TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21 - FileOperations/21 - FileOperations.iml" filepath="$PROJECT_DIR$/21 - FileOperations/21 - FileOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Exercises.iml" filepath="$PROJECT_DIR$/.idea/Java-Exercises.iml" />
+    </modules>
+  </component>
+</project>
