@@ -1,0 +1,40 @@
+
+
+database sql
+
+//  create schema ---->
+        CREATE SCHEMA 'schema_name';
+
+//  create table ----->
+        CREATE TABLE 'schema_name'.'table_name'(
+            'studentID' INT NOT NULL,
+            'name' VARCHAR(20) NULL,
+            .....
+        PRIMARY KEY ('studentID'));
+
+//  all columns from students-table----->
+        SELECT * FROM students;
+
+//  if you want to choose some columns of table----->
+        SELECT studentID, name FROM ogrenciler;
+
+//  show the student that has ogrenciID=2  (show a specific row) ------>
+        SELECT * FROM students WHERE studentID=2;
+
+//  change column name ------>
+    change general things in table (column_name, options of columns vs.) ----> use ALTER TABLE
+        ALTER TABLE 'schema_name'.'table_name'
+        CHANGE COLUMN 'old_column_name' 'new_column_name' INT(11) NOT NULL;
+
+//  add a new row in students_table ----->
+        INSERT INTO students (studentID, name, surname) VALUES (3, 'timucin', 'yildirim');
+
+//  delete the row that has ogrenciID=3 in students_table ----->
+        DELETE FROM students WHERE ogrenciID=3;
+
+//  update the row that has studentID=1 to name='alperen' in students_table  (current name='alp')------>
+        UPDATE students SET name='alperen' WHERE ogrenciID=1;
+
+//  update the row that has name='alp' to name='alperen' in students_table ------->
+//  (error because of safe update mode)  --> mysql -> preferences -> sql editor -> uncheck safe updates
+        UPDATE students SET name='alperen' WHERE name='alp';
