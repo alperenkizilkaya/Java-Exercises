@@ -1,6 +1,15 @@
 package Uygulama3PreparedStatement;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
+
+import static java.util.stream.Collectors.toList;
 
 public class Test {
 
@@ -18,7 +27,7 @@ public class Test {
 
         try {
 
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root","alperen123");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "alperen123");
 
             System.out.println("başarılı şekilde db bağlantısı sağlandı..");
 
@@ -36,13 +45,14 @@ public class Test {
         } catch (Exception e) {
             System.err.println("hata : " + e);
         } finally {
-            if(preparedStatement != null) {
+            if (preparedStatement != null) {
                 try {
                     preparedStatement.close();
                 } catch (SQLException e) {
                     System.err.println("statement kapanırken hataaa ");
                 }
-            }if(connection != null){
+            }
+            if (connection != null) {
                 try {
                     connection.close();
                 } catch (SQLException e) {
