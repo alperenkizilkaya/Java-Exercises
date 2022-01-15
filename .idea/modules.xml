@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/14 - Questions/14 - Questions.iml" filepath="$PROJECT_DIR$/14 - Questions/14 - Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/15 - ObjectPractice/15 - ObjectPractice.iml" filepath="$PROJECT_DIR$/15 - ObjectPractice/15 - ObjectPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/16 - Inheritance/16 - Inheritance.iml" filepath="$PROJECT_DIR$/16 - Inheritance/16 - Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/17 - Polymorphism/17 - Polymorphism.iml" filepath="$PROJECT_DIR$/17 - Polymorphism/17 - Polymorphism.iml" />
@@ -10,11 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/19 - Interface/19 - Interface.iml" filepath="$PROJECT_DIR$/19 - Interface/19 - Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/20 - TryCatch/20 - TryCatch.iml" filepath="$PROJECT_DIR$/20 - TryCatch/20 - TryCatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/21 - FileOperations/21 - FileOperations.iml" filepath="$PROJECT_DIR$/21 - FileOperations/21 - FileOperations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/22 - Generic/22 - Generic.iml" filepath="$PROJECT_DIR$/22 - Generic/22 - Generic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/23 - EsnekBaglanti/23 - EsnekBaglanti.iml" filepath="$PROJECT_DIR$/23 - EsnekBaglanti/23 - EsnekBaglanti.iml" />
-      <module fileurl="file://$PROJECT_DIR$/24 - Collection/24 - Collection.iml" filepath="$PROJECT_DIR$/24 - Collection/24 - Collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/25 - Date/25 - Date.iml" filepath="$PROJECT_DIR$/25 - Date/25 - Date.iml" />
-      <module fileurl="file://$PROJECT_DIR$/26 - Database/26 - Database.iml" filepath="$PROJECT_DIR$/26 - Database/26 - Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Exercises.iml" filepath="$PROJECT_DIR$/.idea/Java-Exercises.iml" />
     </modules>
   </component>
