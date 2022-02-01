@@ -30,7 +30,8 @@ public class Q2 {
 
      showList();
 
-     findMax();
+     int max = findMax();
+     System.out.println("the max value of the list is : " + max);
 
     }
 
@@ -59,14 +60,14 @@ public class Q2 {
         }
     }
 
-    public static void findMax(){
+    public static int findMax(){
 
         int max = 0;
         for(int i : list){
             if (i >= max)
                 max = i;
         }
-        System.out.println("max value of list : " + max);
+        return max;
 
     }
 }
